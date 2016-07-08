@@ -1,5 +1,5 @@
 //CHECKSTYLE:OFF
-package kz.mix.e804;
+package kz.mix.e804.localization;
 
 import java.util.Locale;
 

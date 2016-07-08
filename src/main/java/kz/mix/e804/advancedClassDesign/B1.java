@@ -1,14 +1,14 @@
 //CHECKSTYLE:OFF
-package kz.mix.e804;
+package kz.mix.e804.advancedClassDesign;
 
-class A {
+class A1 {
     public static class GreenHouse {
         int x = 1;
     }
 
     public GreenHouse gh;
 
-    public A(GreenHouse gh) {
+    public A1(GreenHouse gh) {
         this.gh = gh;
     }
 
@@ -17,7 +17,7 @@ class A {
     }
 }
 
-public class B {
+public class B1 {
     public static class GreenHouse {
         int x = 2;
     }
@@ -26,7 +26,7 @@ public class B {
 //        так будет ошибка
 //        A a = new A(new GreenHouse());
 
-        A a = new A(new A.GreenHouse());
+        A1 a = new A1(new A1.GreenHouse());
         System.out.println(a.getGreenHouse().x);
     }
 }
