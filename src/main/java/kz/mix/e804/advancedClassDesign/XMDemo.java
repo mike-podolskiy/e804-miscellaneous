@@ -1,24 +1,25 @@
 //CHECKSTYLE:OFF
 package kz.mix.e804.advancedClassDesign;
 
+// результат - XMethod123
 class XMethod {
     static {
-        System.out.println("XMethod");
+        System.out.print("XMethod");
     }
 
     public static XMethod getMe() {
-        System.out.println(1);
+        System.out.print(1);
         return new XMethod();
     }
 
     public int doThis() {
-        System.out.println(2);
+        System.out.print(2);
         return 3;
     }
 }
 
 public class XMDemo {
     public static void main(String[] args) {
-        System.out.println(XMethod.getMe().doThis());
+        System.out.print(XMethod.getMe().doThis());
     }
 }
