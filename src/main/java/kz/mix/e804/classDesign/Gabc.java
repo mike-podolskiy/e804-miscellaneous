@@ -1,8 +1,7 @@
 //CHECKSTYLE:OFF
 package kz.mix.e804.classDesign;
 
-// результат нельзя предсказать - почему?
-// обычно печатает 2 objects removed
+// результат нельзя предсказать - неизвестно когда начнется сборка мусора
 public class Gabc {
     static int i = 0;
     Gabc g = null;

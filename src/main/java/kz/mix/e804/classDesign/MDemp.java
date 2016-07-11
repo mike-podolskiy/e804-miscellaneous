@@ -14,6 +14,7 @@ public class MDemp {
 
         // false
         boolean b1 = dt1.before(dt2);
+        // false
         // false или true - не имеет значения, т.к. используется конструкция b3 = true
         boolean b3 = new File("script1.js").isFile();
         boolean b4 = false;

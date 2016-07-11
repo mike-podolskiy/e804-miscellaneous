@@ -10,6 +10,8 @@ public class ConvertTest1 {
 
         // ошибка - несовпадение типов
         // Character c2 = (Byte) (new Byte("4"));
+        // так тоже ошибка, неконвертируемые типы
+        // Character c2 = ((Character) new Byte("4"));
 
         char c3 = new Character('A').charValue();
 
@@ -21,6 +23,5 @@ public class ConvertTest1 {
         // ошибка - 1) parseFloat возвращает примитив float на котором нельзя вызвать метод floatValue
         // 2) метод floatValue(float) не существует, должно быть floatValue(void)
         // Float ft2 = Float.parseFloat("45T").floatValue(32F);
-
     }
 }

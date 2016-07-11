@@ -1,6 +1,9 @@
 //CHECKSTYLE:OFF
 package kz.mix.e804.classDesign;
 
+// Все классы находятся в одной иерархии, следовательно вызовется самый "конкретный", т.е. Integer (Object -> Number -> Integer)
+// Если добавить конструктор с параметром не из данной иерархии классов, например String, то возникнет ошибка компиляции -
+// неоднозначная ссылка на конструктор
 public class Lanka {
     public Lanka(Object o) {
         System.out.println("Object In");

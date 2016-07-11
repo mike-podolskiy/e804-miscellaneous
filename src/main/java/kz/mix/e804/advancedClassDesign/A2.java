@@ -9,6 +9,7 @@ public class A2 {
     }
 
     static class B2 extends A2 {
+        // "сокрытие" родительского метода
         public String runNow() {
             return "Low";
         }
@@ -24,6 +25,7 @@ public class A2 {
 }
 
 class C2 extends A2.B2 {
+    // корректно переопределяет метод класса A2.B2
     public String runNow() {
         return "Out";
     }

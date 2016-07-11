@@ -11,13 +11,13 @@ public class Fex {
 
     static void getIt(Number... hg) {
         // Вариант B: не подходит, несовместимость типов
-//    static void getIt(Number[] hg) {
-    // Вариант C: подходит
-//        static void getIt(Number hg) {
-// Вариант D: не подходит, несовместимость типов
-//    static void getIt(Object[] hg) {
-    // Вариант E: подходит
-//        static void getIt(Object hg) {
+        // static void getIt(Number[] hg) {
+        // Вариант C: подходит
+        // static void getIt(Number hg) {
+        // Вариант D: не подходит, несовместимость типов
+        // static void getIt(Object[] hg) {
+        // Вариант E: подходит
+        // static void getIt(Object hg) {
 
         System.out.println(hg instanceof Object);
     }

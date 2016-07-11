@@ -2,7 +2,7 @@
 package kz.mix.e804.classDesign;
 
 // результат в java 7 - sri lanka sRI lANKA www.lanka.lk
-// результат в более ранних версиях - ошибка компиляции, т.к. String нельзя использовать в качестве параметра
+// результат в более ранних версиях - ошибка компиляции, т.к. String нельзя использовать в качестве параметра switch
 public class Count1 {
     public static void main(String[] args) {
         String s = "sri";

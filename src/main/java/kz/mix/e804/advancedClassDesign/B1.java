@@ -23,8 +23,9 @@ public class B1 {
     }
 
     public static void main(String[] args) {
-//        так будет ошибка
-//        A a = new A(new GreenHouse());
+        // так будет ошибка компиляции
+        // данный констуктор имеет следующий вид A1(A1.GreenHouse), а не A1(B1.GreenHouse)
+        // A1 a = new A1(new GreenHouse());
 
         A1 a = new A1(new A1.GreenHouse());
         System.out.println(a.getGreenHouse().x);
