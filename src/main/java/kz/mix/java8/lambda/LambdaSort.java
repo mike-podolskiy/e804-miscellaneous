@@ -1,5 +1,5 @@
 //CHECKSTYLE:OFF
-package kz.mix.java8;
+package kz.mix.java8.lambda;
 
 import java.util.Arrays;
 import java.util.Collections;

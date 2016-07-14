@@ -1,7 +1,9 @@
 //CHECKSTYLE:OFF
-package kz.mix.java8;
+package kz.mix.java8.lambda;
 
-public class ConverterImpl {
+import kz.mix.java8.lambda.Converter;
+
+public class ConverterTest {
     public static void main(String[] args) {
         Converter<String, Integer> converter7 = new Converter<String, Integer>() {
             @Override

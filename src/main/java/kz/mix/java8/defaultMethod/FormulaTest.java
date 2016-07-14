@@ -1,7 +1,9 @@
 //CHECKSTYLE:OFF
-package kz.mix.java8;
+package kz.mix.java8.defaultMethod;
 
-public class FormulaImpl {
+import kz.mix.java8.defaultMethod.Formula;
+
+public class FormulaTest {
     public static void main(String[] args) {
         Formula formula = new Formula() {
             @Override
