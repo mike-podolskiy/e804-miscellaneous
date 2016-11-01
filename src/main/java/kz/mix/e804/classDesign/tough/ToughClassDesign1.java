@@ -50,7 +50,7 @@ class BookStore {
     }
 }
 
-public class ClassDesign1 {
+public class ToughClassDesign1 {
     static BookStore bs = new BookStore();
 
     public static void main(String[] args) throws Exception {
